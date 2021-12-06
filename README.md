@@ -1,4 +1,8 @@
 
+This will generate lint report like JaCoCo (https://www.eclemma.org/jacoco/)
+
+
+## Github Action for Android
 https://github.com/JetBrains/qodana-action-eap
 
 - name: Qodana - Android
@@ -13,7 +17,7 @@ https://github.com/JetBrains/qodana-action-eap
 
 
 
-
+## Other issues
 
 https://github.com/JetBrains/qodana-action/pull/16#issue-1043194616
 
