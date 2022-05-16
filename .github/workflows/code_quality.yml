@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -34,8 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
+      
+      # https://www.jetbrains.com/help/qodana/qodana-github-action.html#Usage
       - name: Qodana - Android
-        uses: JetBrains/qodana-action-eap@v1.1.2-eap
+        uses: JetBrains/qodana-action@v5.0.2
         with:
           linter: qodana-jvm-android
