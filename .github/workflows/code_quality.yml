@@ -38,5 +38,3 @@ jobs:
       # https://www.jetbrains.com/help/qodana/qodana-github-action.html#Usage
       - name: Qodana - Android
         uses: JetBrains/qodana-action@v5.0.2
-        with:
-          linter: qodana-jvm-android
